@@ -1,0 +1,98 @@
+body {
+
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+
+.square {
+
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%; 
+    border-radius: 50%;
+    transition: background 0.3s;
+
+    -moz-transition: background 0.3s; /* --> estas 2 lineas sirven para dar soporte en caso de que  */
+    -webkit-transition: background 0.3s;   /*el browser no pueda ejecutar transition */
+}
+
+#container {
+    margin: 20px auto;   
+    max-width: 600px;
+
+}
+
+h1 {
+
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0; /* --> espacio del padding para el TOP  y el BOTTOM  */
+    
+    transition: background 0.3s;
+
+    -moz-transition: background 0.3s; /* --> estas 2 lineas sirven para dar soporte en caso de que  */
+    -webkit-transition: background 0.3s;   /*el browser no pueda ejecutar transition */
+
+}
+
+/* span {
+
+    color: white;
+
+} */
+
+#stripe{
+
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+.selected{
+    color: white;
+    background-color: steelblue;
+
+}
+
+#colorDisplay{
+
+    font-size: 200%;
+
+}
+
+button {
+text-transform: uppercase;
+    border: none;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing:  px;
+    font-size: inherit;
+    transition: all 0.3s; /* -->> Atrasa 0.3 la transicion de colores para darle un mejor efecto */
+}
+
+#message{
+display: inline-block; /* Aun que el el texto del span no se vea, establecenemos un espacio  */
+width: 20%;
+
+
+}
+
+ button:hover{  /*---> hace el efecto de cambiar de color cuando el cursos esta encima del boton */
+
+    color: white;
+    background-color: steelblue;
+
+}
